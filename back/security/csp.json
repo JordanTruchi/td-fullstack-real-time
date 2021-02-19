@@ -1,0 +1,19 @@
+{
+  "directives": {
+    "defaultSrc": [
+      "'self'"
+    ],
+    "fontSrc": [
+      "fonts.gstatic.com"
+    ],
+    "styleSrc": [
+      "'self'",
+      "'unsafe-inline'",
+      "fonts.googleapis.com"
+    ],
+    "imgSrc": [
+      "'self'",
+      "data:"
+    ]
+  }
+}

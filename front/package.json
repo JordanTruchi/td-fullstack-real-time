@@ -1,0 +1,40 @@
+{
+  "name": "td-fullstack-front",
+  "version": "1.0.0",
+  "description": "Insta clone front",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devserver": "webpack-dev-server --config webpack.config.dev.js --port 8080"
+  },
+  "keywords": [
+    "front",
+    "vue.js"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "firebase": "^8.2.7",
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.4",
+    "vue-socket.io": "^3.0.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "vue-loader": "^15.9.3",
+    "dotenv-webpack": "^2.0.0",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.2",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.6.0"
+  }
+}
